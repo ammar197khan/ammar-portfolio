@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="400" fill="#14181d"/>
+  <rect width="640" height="400" fill="url(#g)"/>
+
+  <rect x="236" y="30" width="168" height="340" rx="26" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <rect x="294" y="44" width="52" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <text x="256" y="90" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="rgba(255,255,255,0.55)">Book a slot</text>
+  <rect x="256" y="108" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="282" y="108" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="308" y="108" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="334" y="108" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="360" y="108" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="256" y="134" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="282" y="134" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="308" y="134" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="334" y="134" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="360" y="134" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="256" y="160" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="282" y="160" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="308" y="160" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="334" y="160" width="20" height="20" rx="5" fill="#f0b25a"/>
+  <rect x="360" y="160" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="256" y="186" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="282" y="186" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="308" y="186" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="334" y="186" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="360" y="186" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="256" y="212" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="282" y="212" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="308" y="212" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="334" y="212" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="360" y="212" width="20" height="20" rx="5" fill="rgba(255,255,255,0.08)"/>
+  <rect x="256" y="252" width="128" height="34" rx="8" fill="none" stroke="rgba(255,255,255,0.12)"/>
+  <text x="270" y="274" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="rgba(255,255,255,0.55)">10:30 AM</text>
+  <rect x="256" y="300" width="128" height="40" rx="20" fill="#f0b25a"/>
+  <text x="320" y="325" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#1a1205">confirm</text>
+  <path d="M404 200 H500" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" stroke-dasharray="5 5"/>
+
+  <rect x="500" y="172" width="100" height="56" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="550" y="205" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="rgba(255,255,255,0.55)">API</text>
+  <path d="M136 200 H236" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" stroke-dasharray="5 5"/>
+
+  <rect x="36" y="172" width="100" height="56" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="86" y="205" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="rgba(255,255,255,0.55)">admin</text>
+</svg>

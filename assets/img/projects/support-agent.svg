@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="400" fill="#14181d"/>
+  <rect width="640" height="400" fill="url(#g)"/>
+
+
+  <rect x="250" y="160" width="140" height="80" rx="12" fill="#1b2026" stroke="#f0b25a" stroke-width="1.5"/>
+  <text x="320" y="205" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="#f0b25a">agent</text>
+
+  <rect x="70" y="70" width="120" height="56" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="130" y="103" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="rgba(255,255,255,0.55)">chat</text>
+
+  <rect x="70" y="274" width="120" height="56" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="130" y="307" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="rgba(255,255,255,0.55)">human</text>
+
+  <rect x="450" y="70" width="120" height="56" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="510" y="103" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="rgba(255,255,255,0.55)">knowledge</text>
+
+  <rect x="450" y="274" width="120" height="56" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="510" y="307" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="rgba(255,255,255,0.55)">orders API</text>
+  <path d="M190 98 C230 98 230 175 250 185" fill="none" stroke="#f0b25a" stroke-width="1.5" />
+  <path d="M390 185 C420 175 420 98 450 98" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+  <path d="M390 215 C420 225 420 302 450 302" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+  <path d="M250 215 C230 225 230 302 190 302" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <circle cx="320" cy="200" r="3" fill="#f0b25a"/>
+</svg>

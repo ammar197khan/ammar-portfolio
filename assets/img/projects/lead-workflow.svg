@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="400" fill="#14181d"/>
+  <rect width="640" height="400" fill="url(#g)"/>
+
+
+  <rect x="40" y="172" width="110" height="56" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="95" y="205" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="rgba(255,255,255,0.55)">form</text>
+
+  <rect x="190" y="172" width="110" height="56" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="245" y="205" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="rgba(255,255,255,0.55)">enrich</text>
+
+  <rect x="340" y="172" width="110" height="56" rx="12" fill="#1b2026" stroke="#f0b25a" stroke-width="1.5"/>
+  <text x="395" y="205" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="#f0b25a">LLM score</text>
+
+  <rect x="500" y="96" width="110" height="56" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="555" y="129" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="rgba(255,255,255,0.55)">sales</text>
+
+  <rect x="500" y="248" width="110" height="56" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="555" y="281" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="14" fill="rgba(255,255,255,0.55)">nurture</text>
+  <path d="M150 200 H190" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+  <path d="M300 200 H340" fill="none" stroke="#f0b25a" stroke-width="1.5" />
+  <path d="M450 200 C475 200 475 124 500 124" fill="none" stroke="#6fd3a0" stroke-width="1.5" />
+  <path d="M450 200 C475 200 475 276 500 276" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+  <circle cx="170" cy="200" r="3" fill="rgba(255,255,255,0.55)"/>
+  <circle cx="320" cy="200" r="3" fill="#f0b25a"/>
+  <text x="40" y="330" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="rgba(255,255,255,0.55)">trigger: new lead → routed in seconds</text>
+</svg>

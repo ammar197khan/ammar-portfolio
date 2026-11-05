@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="400" fill="#14181d"/>
+  <rect width="640" height="400" fill="url(#g)"/>
+
+  <rect x="118" y="78" width="200" height="250" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" transform="rotate(-4 218 203)"/>
+  <rect x="140" y="70" width="200" height="250" rx="12" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <rect x="166" y="100" width="148" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="166" y="116" width="120" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="166" y="132" width="140" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="166" y="148" width="96" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="160" y="166" width="160" height="38" rx="6" fill="rgba(240,178,90,0.14)"/>
+  <rect x="166" y="176" width="140" height="6" rx="3" fill="#f0b25a"/>
+  <rect x="166" y="192" width="110" height="6" rx="3" fill="#f0b25a"/>
+  <rect x="166" y="228" width="148" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="166" y="244" width="124" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="166" y="260" width="136" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="166" y="276" width="80" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <path d="M340 185 C380 185 380 200 410 200" fill="none" stroke="#f0b25a" stroke-width="1.5" />
+  <rect x="410" y="140" width="170" height="120" rx="12" fill="#1b2026" stroke="#f0b25a" stroke-width="1.5"/>
+  <text x="430" y="172" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#f0b25a">answer</text>
+  <rect x="430" y="188" width="130" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="430" y="204" width="110" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="430" y="220" width="90" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <text x="430" y="246" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="rgba(255,255,255,0.55)">[source p.4]</text>
+</svg>

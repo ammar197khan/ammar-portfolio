@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Source for assets/img/og-image.png (1200x630 social preview). Re-render: see README. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@700&display=swap">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    position: relative;
+    background: #0b0d10;
+    color: #e9ebee;
+    font-family: Inter, sans-serif;
+  }
+  body::before {
+    content: ""; position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+  .wrap { position: relative; padding: 92px 96px; }
+  .mark { display: inline-grid; place-items: center; width: 64px; height: 64px; border: 2px solid rgba(255,255,255,0.16); border-radius: 16px; background: #14181d; color: #f0b25a; font: 500 24px "JetBrains Mono", monospace; }
+  h1 { margin: 44px 0 0; font: 700 92px/1 "Space Grotesk", sans-serif; letter-spacing: -0.03em; }
+  .role { margin-top: 24px; color: #f0b25a; font: 500 28px "JetBrains Mono", monospace; }
+  .role span { color: #6c7580; }
+  .lead { margin-top: 30px; max-width: 900px; color: #9ba4ae; font-size: 28px; line-height: 1.45; }
+  .url { position: absolute; right: 96px; bottom: 64px; color: #6c7580; font: 500 20px "JetBrains Mono", monospace; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="mark">AK</div>
+    <h1>Ammar Ali Khan</h1>
+    <div class="role">AI Developer <span>/</span> AI Agents <span>/</span> AI Automation</div>
+    <p class="lead">AI agents, RAG &amp; LLM applications and workflow automation, backed by 10 years of software engineering.</p>
+  </div>
+  <div class="url">ammar197khan.github.io/ammar-portfolio</div>
+</body>
+</html>

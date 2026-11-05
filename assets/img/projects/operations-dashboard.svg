@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="400" fill="#14181d"/>
+  <rect width="640" height="400" fill="url(#g)"/>
+
+  <rect x="50" y="46" width="540" height="308" rx="14" fill="#1b2026" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <path d="M170 46 V354" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="74" y="80" width="80" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="74" y="106" width="60" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="74" y="132" width="70" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="74" y="158" width="56" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="74" y="184" width="66" height="6" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="70" y="72" width="88" height="22" rx="6" fill="rgba(240,178,90,0.12)"/>
+  <rect x="196" y="72" width="116" height="62" rx="10" fill="none" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="330" y="72" width="116" height="62" rx="10" fill="none" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="464" y="72" width="102" height="62" rx="10" fill="none" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="210" y="90" width="50" height="7" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="210" y="108" width="80" height="7" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="344" y="90" width="50" height="7" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="344" y="108" width="70" height="7" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="478" y="90" width="44" height="7" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="478" y="108" width="64" height="7" rx="3" fill="rgba(255,255,255,0.12)"/>
+  <rect x="206" y="260" width="24" height="70" rx="4" fill="rgba(255,255,255,0.14)"/>
+  <rect x="250" y="220" width="24" height="110" rx="4" fill="rgba(255,255,255,0.14)"/>
+  <rect x="294" y="240" width="24" height="90" rx="4" fill="rgba(255,255,255,0.14)"/>
+  <rect x="338" y="190" width="24" height="140" rx="4" fill="rgba(255,255,255,0.14)"/>
+  <rect x="382" y="210" width="24" height="120" rx="4" fill="rgba(255,255,255,0.14)"/>
+  <rect x="426" y="160" width="24" height="170" rx="4" fill="rgba(255,255,255,0.14)"/>
+  <rect x="470" y="180" width="24" height="150" rx="4" fill="rgba(255,255,255,0.14)"/>
+  <rect x="514" y="140" width="24" height="190" rx="4" fill="#f0b25a"/>
+</svg>
