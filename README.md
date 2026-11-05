@@ -19,7 +19,7 @@ assets/
   img/og-image.png         Preview image shown when the link is shared (1200×630)
   img/projects/            Project thumbnails
   cv/Ammar_Ali_Khan_CV.pdf The file behind "Download CV"
-tools/                     Sources for the CV, preview image and thumbnails (not used by the live site)
+tools/                     Sources for the share preview image and concept thumbnails (not used by the live site)
 robots.txt, sitemap.xml    Search-engine files
 .nojekyll                  Tells GitHub Pages to serve the files as-is
 ```
@@ -53,8 +53,8 @@ Delete the concept entries you no longer need. The filter counts update on their
 ### Skills, experience and education
 
 - **Skills:** edit the `skills` groups. Rename, reorder, add or remove items freely.
-- **Experience:** the entries are **placeholders** ("Company Name", "20XX"). Replace them with your real roles, companies, dates and achievements, newest first.
-- **Education:** also **placeholders**. Replace them with your degree(s) and certifications.
+- **Experience:** one entry per role, newest first: `role`, `company`, `period`, `location` and a list of `points`.
+- **Education:** one card per entry (degree, certification, languages). Leave `period` or `details` as `""` to hide them.
 
 ### Text in the page
 
@@ -71,19 +71,12 @@ Change the variables at the top of `assets/css/style.css`. `--accent` is the amb
 
 ## Replacing the CV
 
-Replace `assets/cv/Ammar_Ali_Khan_CV.pdf` with your own PDF, **keeping the same file name**, then commit and push.
-
-The current PDF is a short starter CV generated from `tools/cv.html`. To edit and re-generate it with Microsoft Edge (Windows):
-
-```powershell
-& "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --headless=new --no-pdf-header-footer `
-  --print-to-pdf="$PWD\assets\cv\Ammar_Ali_Khan_CV.pdf" "file:///$($PWD -replace '\\','/')/tools/cv.html"
-```
+The "Download CV" button serves `assets/cv/Ammar_Ali_Khan_CV.pdf`. To update it, save your new CV as a PDF, copy it over that file **keeping the same file name**, then commit and push. Visitors download it as `Ammar_Ali_Khan_CV.pdf`.
 
 ## Replacing images
 
 - **Project thumbnails:** drop a new image into `assets/img/projects/` and point the project's `image` field at it. The concept SVGs come from `tools/generate-thumbnails.js` (`node tools/generate-thumbnails.js`).
-- **Profile photo (optional):** the design uses an "AK" monogram, not a photo. To add a photo, put it in `assets/img/` and add an `<img>` in the hero or About section of `index.html`.
+- **Profile photo:** the hero portrait is `assets/img/ammar-ali-khan.webp` with `ammar-ali-khan.jpg` as a fallback. Replace both with a new photo cropped to 4:5 portrait (e.g. 656×820), keeping the same file names. If the size changes, update the `width`/`height` on the `<img>` in `index.html`.
 - **Share preview image:** edit `tools/og.html` and re-generate `assets/img/og-image.png`:
 
 ```powershell

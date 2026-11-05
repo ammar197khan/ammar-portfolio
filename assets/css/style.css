@@ -317,6 +317,32 @@ button, input, textarea { font: inherit; color: inherit; }
 }
 .hero-social a:hover { color: var(--accent); border-color: var(--accent); }
 
+/* Portrait + agent console */
+.hero-visual {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 84px;
+}
+.portrait {
+  display: block;
+  width: min(340px, 74%);
+  aspect-ratio: 4 / 5;
+  border: 1px solid var(--border-strong);
+  border-radius: 20px;
+  background: #d9d6d2;
+  overflow: hidden;
+  box-shadow: 0 30px 80px -30px rgba(0, 0, 0, 0.7);
+}
+.portrait img { width: 100%; height: 100%; object-fit: cover; }
+.hero-visual .console {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: min(390px, 82%);
+}
+.hero-visual .console-body { padding: 16px 16px 18px; font-size: 0.78rem; line-height: 1.9; }
+
 /* Agent console */
 .console {
   margin: 0;
@@ -717,6 +743,9 @@ button, input, textarea { font: inherit; color: inherit; }
   .about-grid,
   .contact-grid { grid-template-columns: minmax(0, 1fr); gap: 44px; }
   .hero { min-height: auto; }
+  .hero-visual { flex-direction: column; align-items: center; padding-bottom: 0; }
+  .portrait { width: min(320px, 80%); }
+  .hero-visual .console { position: relative; width: min(520px, 100%); margin-top: -64px; }
   .services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 

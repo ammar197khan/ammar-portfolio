@@ -178,60 +178,76 @@ window.PORTFOLIO = {
 
   /*
    * ---------------- Experience ----------------
-   * PLACEHOLDERS: replace company names, dates and details with your own.
    * Newest first. "points" is a list of short achievements/responsibilities.
    */
   experience: [
     {
-      role: "AI Developer & Automation Engineer",
-      company: "Company Name",
-      period: "20XX – Present",
-      location: "Remote",
+      role: "Senior Software Engineer",
+      company: "Self-Employed / Freelance",
+      period: "Apr 2024 – Present",
+      location: "Lahore, Pakistan",
       points: [
-        "Design and build AI agents, RAG applications and LLM integrations for business use cases.",
-        "Automate operational workflows with n8n, APIs and AI-powered processing steps.",
-        "Work with stakeholders to turn manual processes into measurable, maintainable automations."
+        "Leading Laravel-based project delivery and CI/CD strategy across multiple SaaS platforms.",
+        "Integrating complex real-time services using Docker and Firebase."
       ]
     },
     {
-      role: "Senior Software Developer",
-      company: "Company Name",
-      period: "20XX – 20XX",
-      location: "City, Country",
+      role: "Senior PHP Laravel Developer",
+      company: "Softoo",
+      period: "Jul 2021 – May 2024",
+      location: "Islamabad, Pakistan",
       points: [
-        "Built and maintained web applications and REST APIs with Laravel, PHP and MySQL.",
-        "Integrated third-party services, payment gateways and external APIs.",
-        "Supported mobile applications with shared backend services."
+        "Led Laravel project teams and implemented best practices across backend, API and DevOps.",
+        "Delivered a Laravel application recognised with an Achievement Award for high-impact performance."
       ]
     },
     {
-      role: "Software Developer",
-      company: "Company Name",
-      period: "20XX – 20XX",
-      location: "City, Country",
+      role: "Senior PHP Laravel Developer",
+      company: "Veroke",
+      period: "Mar 2020 – Jun 2021",
+      location: "Islamabad, Pakistan",
       points: [
-        "Developed features for client web applications from requirements to deployment.",
-        "Worked across frontend and backend with JavaScript, PHP and SQL databases."
+        "Developed and maintained REST APIs and secure data pipelines.",
+        "Championed code reviews and unit testing, and optimised query performance by 30%."
+      ]
+    },
+    {
+      role: "Senior Software Engineer",
+      company: "Eye4Tech Pvt Ltd",
+      period: "May 2018 – Feb 2020",
+      location: "Lahore, Pakistan",
+      points: [
+        "Built scalable Laravel platforms with strong API and user-role logic.",
+        "Led developer onboarding and mentored junior developers."
+      ]
+    },
+    {
+      role: "Web Application Developer",
+      company: "Techverx",
+      period: "Mar 2016 – Apr 2018",
+      location: "Lahore, Pakistan",
+      points: [
+        "Fixed critical production bugs and enhanced legacy Laravel modules.",
+        "Collaborated in agile teams and maintained Git workflows."
       ]
     }
   ],
 
   /*
    * ---------------- Education ----------------
-   * PLACEHOLDERS: replace with your degree(s) and certifications.
    */
   education: [
     {
-      title: "Degree Name (e.g. BS Computer Science)",
-      institution: "University Name",
-      period: "Year – Year",
-      details: "Add a short note about your studies, final project or honours."
+      title: "BS Software Engineering",
+      institution: "University of Management & Technology (UMT), Lahore",
+      period: "2016",
+      details: ""
     },
     {
-      title: "Certification Name",
-      institution: "Issuing Organisation",
-      period: "Year",
-      details: "Optional: AI, cloud or development certifications."
+      title: "Languages",
+      institution: "English (Fluent) · Urdu (Native)",
+      period: "",
+      details: ""
     }
   ]
 };
